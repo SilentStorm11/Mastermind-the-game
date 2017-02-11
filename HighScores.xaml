@@ -1,0 +1,41 @@
+﻿<Page x:Class="Projekat2.HighScores"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Projekat2"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="800"
+      Title="HighScores">
+
+    <Grid Background="Yellow">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="6*"/>
+
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0"  Name="back" Margin="10,10,10,10" HorizontalAlignment="Right" Background="LimeGreen" Foreground="Black" FontSize="12" FontWeight="UltraBold" MaxHeight="30" MinWidth="40" Click="back_Click">Go Back</Button>
+        <MediaElement Name="klik_sound" LoadedBehavior="Manual" MediaEnded="klik_sound_MediaEnded" Source="Sounds/inmenubtns.mp3" Margin="-201,54,1014,304.8" Visibility="Collapsed"   />
+        <Label Grid.Row="0" Name="naslov" HorizontalAlignment="Center"  VerticalAlignment="Center" Margin="0" FontSize="30" FontStyle="Oblique" FontWeight="UltraBlack">High Scores</Label>
+        <Label Grid.Row="1" Margin="0,-15,0,0" Name="lab" Visibility="Visible" HorizontalAlignment="Center"  VerticalAlignment="Center" FontStyle="Italic" FontSize="13" FontWeight="DemiBold" Foreground="LimeGreen" >Choose game difficulty</Label>
+        <StackPanel Grid.Row="2" Name="tezine" HorizontalAlignment="Center"  Orientation="Horizontal" Margin="0,-30,0,-4" Visibility="Visible"  >
+
+            <Label MouseUp="biranjeTezine"  Name="easy" HorizontalAlignment="Center"  VerticalAlignment="Center" FontStyle="Oblique" FontWeight="ExtraBold">easy</Label>
+            <Label MouseUp="biranjeTezine" Name="normal" HorizontalAlignment="Center" VerticalAlignment="Center" FontStyle="Oblique" FontWeight="ExtraBold" >normal</Label>
+            <Label MouseUp="biranjeTezine" Name="hard"  HorizontalAlignment="Center" VerticalAlignment="Center" FontStyle="Oblique" FontWeight="ExtraBold">hard</Label>
+        </StackPanel>
+        <DataGrid LoadingRow="tabela_LoadingRow" Grid.Row="3" Name="tabela" CanUserDeleteRows="False" CanUserAddRows="False"  CanUserSortColumns="True" 
+                  AutoGenerateColumns="False" ItemsSource="{Binding Source=GeTSetEasy}" IsReadOnly="True" VerticalAlignment="Top" Height="250" Width="420" MinColumnWidth="130"  >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Width="SizeToCells" MinWidth="200" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Score" Width="SizeToCells" MinWidth="200" Binding="{Binding Score}"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+
+    </Grid>
+</Page>
