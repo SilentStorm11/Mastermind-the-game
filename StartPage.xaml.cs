@@ -94,8 +94,8 @@ namespace Projekat2
         private void exit_Click(object sender, RoutedEventArgs e)
         {
             klik_sound.Play();
-
-            Application.Current.Shutdown();
+            Environment.Exit(0);
+           // Application.Current.Shutdown();
         }
 
         private void rezultati_Click(object sender, RoutedEventArgs e)

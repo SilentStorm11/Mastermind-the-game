@@ -17,11 +17,11 @@ namespace Projekat2
         private ObservableCollection<Rezultat> lista_hard = new ObservableCollection<Rezultat>();
         private ObservableCollection<Rezultat> lista_normal = new ObservableCollection<Rezultat>();
 
-        public void Sort<Rezultat>( ObservableCollection<Rezultat> collection) where Rezultat : IComparable
+        public void Sort<Rezultat>(ObservableCollection<Rezultat> collection) where Rezultat : IComparable
         {
-            List<Rezultat> sorted = collection.OrderBy(x => x).ToList();
-            for (int i = 0; i < sorted.Count(); i++)
-                collection.Move(collection.IndexOf(sorted[i]), i);
+            //  List<Rezultat> sorted = collection.OrderBy(x => x).ToList();
+            //for (int i = 0; i < sorted.Count(); i++)
+            //  collection.Move(collection.IndexOf(sorted[i]), i);
         }
 
 

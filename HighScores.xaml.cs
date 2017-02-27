@@ -31,13 +31,16 @@ namespace Projekat2
             dat = new Data();
             if(File.Exists("HighScores.bin"))
             dat = Data.Deserijalizuj();
-            dat.Sort(dat.GetSetEasy);
-            dat.Sort(dat.GetSetNormal);
-            dat.Sort(dat.GetSetHard);
+            //dat.Sort(dat.GetSetEasy);   
             for (int i = 0; i < dat.GetSetEasy.Count; i++)
             {
                 if (i > 9) dat.GetSetEasy.RemoveAt(i);
             }
+            dat.GetSetEasy = dat.GetSetEasy.OrderBy(x => x) as ObservableCollection<Rezultat>;
+
+            dat.Sort(dat.GetSetNormal);
+            dat.Sort(dat.GetSetHard);
+       
             for (int i = 0; i < dat.GetSetNormal.Count; i++)
             {
                 if (i > 9) dat.GetSetNormal.RemoveAt(i);

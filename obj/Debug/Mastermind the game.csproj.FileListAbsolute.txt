@@ -30,3 +30,4 @@ C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Projekat2\
 C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Projekat2\bin\Debug\Projekat2.application
 C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Projekat2\obj\Debug\Projekat2.exe.manifest
 C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Projekat2\obj\Debug\Projekat2.application
+C:\Users\SilentStorm1\documents\visual studio 2015\Projects\Projekat2\Projekat2\obj\Debug\Mastermind The Game.csprojResolveAssemblyReference.cache
