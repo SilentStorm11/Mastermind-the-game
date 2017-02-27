@@ -65,7 +65,8 @@ namespace Projekat2
              double korak = panel.ActualHeight / 120.0;
             
              vreme.Height += korak;
-            if (Math.Ceiling(panel.ActualHeight)==Math.Ceiling(vreme.Height)) {
+            if (Math.Ceiling(panel.ActualHeight)==Math.Ceiling(vreme.Height) ||
+                Math.Ceiling(panel.ActualHeight) < Math.Ceiling(vreme.Height)) {
                 timer.Stop();
                 postavi_resenje();
             }
@@ -82,6 +83,7 @@ namespace Projekat2
                 kombinacija[i].Source = ImageInit(slike[gen.Next(6)]);
                 str +=kombinacija[i].Source.ToString()+"\n";
             }
+            MessageBox.Show(str);
             return kombinacija;
 
         }
@@ -150,6 +152,7 @@ namespace Projekat2
            
             {
                 kontrola_sound.Play();
+                
                 Image img = new Image();
                 img.Source = ((sender as Button).Content as Image).Source;
                 mat_pokusaji[red, kol] = img;
@@ -305,5 +308,7 @@ namespace Projekat2
         {
             ((MediaElement)sender).Stop();
         }
+
+     
     }
 }
