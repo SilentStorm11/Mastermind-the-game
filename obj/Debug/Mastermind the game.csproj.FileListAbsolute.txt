@@ -31,3 +31,36 @@ C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Projekat2\
 C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Projekat2\obj\Debug\Projekat2.exe.manifest
 C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Projekat2\obj\Debug\Projekat2.application
 C:\Users\SilentStorm1\documents\visual studio 2015\Projects\Projekat2\Projekat2\obj\Debug\Mastermind The Game.csprojResolveAssemblyReference.cache
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\bin\Debug\Sounds\Battle City.mp3
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\bin\Debug\Sounds\potvrdi_izbrisi.mp3
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\bin\Debug\Sounds\btnclc.mp3
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\bin\Debug\Sounds\inmenubtns.mp3
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\bin\Debug\Projekat2.exe.config
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\bin\Debug\Projekat2.exe.manifest
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\bin\Debug\Projekat2.application
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\bin\Debug\Projekat2.exe
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\bin\Debug\Projekat2.pdb
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Mastermind The Game.csprojResolveAssemblyReference.cache
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\HighScores.g.cs
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Igra.g.cs
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\MainWindow.g.cs
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Pobeda.g.cs
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Poraz.g.cs
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\StartPage.g.cs
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\App.g.cs
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Projekat2_Content.g.cs
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Projekat2_MarkupCompile.cache
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Projekat2_MarkupCompile.lref
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\HighScores.baml
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Igra.baml
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\MainWindow.baml
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Pobeda.baml
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Poraz.baml
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\StartPage.baml
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Projekat2.g.resources
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Projekat2.Properties.Resources.resources
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Mastermind The Game.csproj.GenerateResource.Cache
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Projekat2.exe.manifest
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Projekat2.application
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Projekat2.exe
+C:\Users\SilentStorm1\Documents\Visual Studio 2015\Projects\Projekat2\Mastermind-the-game\obj\Debug\Projekat2.pdb

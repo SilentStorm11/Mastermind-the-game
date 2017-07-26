@@ -83,7 +83,7 @@ namespace Projekat2
                 kombinacija[i].Source = ImageInit(slike[gen.Next(6)]);
                 str +=kombinacija[i].Source.ToString()+"\n";
             }
-            MessageBox.Show(str);
+            //MessageBox.Show(str); rešenje igre
             return kombinacija;
 
         }
